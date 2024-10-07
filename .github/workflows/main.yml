@@ -14,6 +14,6 @@ jobs:
         password: ${{ secrets.PRIVATE_KEY }}
         port: ${{ secrets.PORT }}
         script: |
-          cd /home/chrisbot/personal-hypixel-bot
+          cd personal-hypixel-bot
           ${{ secrets.SCRIPT }}
           systemctl --user restart personal-hypixel-bot
