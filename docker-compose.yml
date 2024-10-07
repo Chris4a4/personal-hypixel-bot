@@ -9,7 +9,7 @@ services:
     build:
       context: backend/
     ports:
-      - "127.0.0.1:8005:8000"
+      - "8000:8000"
     depends_on:
       - mongo
 
