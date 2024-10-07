@@ -1,0 +1,25 @@
+services:
+  bot:
+    build:
+      context: bot/
+    depends_on:
+      - backend
+
+  backend:
+    build:
+      context: backend/
+    ports:
+      - "127.0.0.1:8005:8000"
+    depends_on:
+      - mongo
+
+  mongo:
+    image: mongo
+    ports:
+      - "127.0.0.1:27017:27017"
+    volumes:
+      - personal-hypixel-bot-mongo:/data/db
+
+volumes:
+  personal-hypixel-bot-mongo:
+    driver: local

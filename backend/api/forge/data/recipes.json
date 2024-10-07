@@ -1,0 +1,448 @@
+{
+    "SKELETON_KEY": {
+        "forge_time": 1800,
+        "recipe": {
+            "PERFECT_PLATE": 1,
+            "BEJEWELED_HANDLE": 1
+        }
+    },
+    "BEJEWELED_HANDLE": {
+        "forge_time": 30,
+        "recipe": {
+            "GLACITE_JEWEL": 3
+        }
+    },
+    "PERFECT_PLATE": {
+        "forge_time": 21600,
+        "recipe": {
+            "UMBER_PLATE": 1,
+            "TUNGSTEN_PLATE": 1,
+            "MITHRIL_PLATE": 1
+        }
+    },
+    "UMBER_PLATE": {
+        "forge_time": 10800,
+        "recipe": {
+            "REFINED_UMBER": 4,
+            "GLACITE_AMALGAMATION": 1
+        }
+    },
+    "REFINED_UMBER": {
+        "forge_time": 3600,
+        "recipe": {
+            "ENCHANTED_UMBER": 160
+        }
+    },
+    "ENCHANTED_UMBER": {
+        "forge_time": 0,
+        "recipe": {
+            "UMBER": 160
+        }
+    },
+    "GLACITE_AMALGAMATION": {
+        "forge_time": 14400,
+        "recipe": {
+            "ENCHANTED_GLACITE": 256,
+            "FINE_ONYX_GEM": 4,
+            "FINE_CITRINE_GEM": 4,
+            "FINE_PERIDOT_GEM": 4,
+            "FINE_AQUAMARINE_GEM": 4
+        }
+    },
+    "ENCHANTED_GLACITE": {
+        "forge_time": 0,
+        "recipe": {
+            "GLACITE": 160
+        }
+    },
+    "FINE_ONYX_GEM": {
+        "forge_time": 0,
+        "recipe": {
+            "FLAWED_ONYX_GEM": 80
+        }
+    },
+    "FLAWED_ONYX_GEM": {
+        "forge_time": 0,
+        "recipe": {
+            "ROUGH_ONYX_GEM": 80
+        }
+    },
+    "FINE_CITRINE_GEM": {
+        "forge_time": 0,
+        "recipe": {
+            "FLAWED_CITRINE_GEM": 80
+        }
+    },
+    "FLAWED_CITRINE_GEM": {
+        "forge_time": 0,
+        "recipe": {
+            "ROUGH_CITRINE_GEM": 80
+        }
+    },
+    "FINE_PERIDOT_GEM": {
+        "forge_time": 0,
+        "recipe": {
+            "FLAWED_PERIDOT_GEM": 80
+        }
+    },
+    "FLAWED_PERIDOT_GEM": {
+        "forge_time": 0,
+        "recipe": {
+            "ROUGH_PERIDOT_GEM": 80
+        }
+    },
+    "FINE_AQUAMARINE_GEM": {
+        "forge_time": 0,
+        "recipe": {
+            "FLAWED_AQUAMARINE_GEM": 80
+        }
+    },
+    "FLAWED_AQUAMARINE_GEM": {
+        "forge_time": 0,
+        "recipe": {
+            "ROUGH_AQUAMARINE_GEM": 80
+        }
+    },
+    "TUNGSTEN_PLATE": {
+        "forge_time": 10800,
+        "recipe": {
+            "REFINED_TUNGSTEN": 4,
+            "GLACITE_AMALGAMATION": 1
+        }
+    },
+    "REFINED_TUNGSTEN": {
+        "forge_time": 3600,
+        "recipe": {
+            "ENCHANTED_TUNGSTEN": 160
+        }
+    },
+    "ENCHANTED_TUNGSTEN": {
+        "forge_time": 0,
+        "recipe": {
+            "TUNGSTEN": 160
+        }
+    },
+    "MITHRIL_PLATE": {
+        "forge_time": 64800,
+        "recipe": {
+            "REFINED_MITHRIL": 5,
+            "GOLDEN_PLATE": 1,
+            "ENCHANTED_IRON_BLOCK": 1,
+            "REFINED_TITANIUM": 1
+        }
+    },
+    "REFINED_MITHRIL": {
+        "forge_time": 21600,
+        "recipe": {
+            "ENCHANTED_MITHRIL": 160
+        }
+    },
+    "ENCHANTED_MITHRIL": {
+        "forge_time": 0,
+        "recipe": {
+            "MITHRIL_ORE": 160
+        }
+    },
+    "GOLDEN_PLATE": {
+        "forge_time": 21600,
+        "recipe": {
+            "ENCHANTED_GOLD_BLOCK": 2,
+            "GLACITE_JEWEL": 5,
+            "REFINED_DIAMOND": 1
+        }
+    },
+    "REFINED_DIAMOND": {
+        "forge_time": 28800,
+        "recipe": {
+            "ENCHANTED_DIAMOND_BLOCK": 2
+        }
+    },
+    "ENCHANTED_DIAMOND_BLOCK": {
+        "forge_time": 0,
+        "recipe": {
+            "ENCHANTED_DIAMOND": 160
+        }
+    },
+    "ENCHANTED_DIAMOND": {
+        "forge_time": 0,
+        "recipe": {
+            "DIAMOND": 160
+        }
+    },
+    "ENCHANTED_GOLD_BLOCK": {
+        "forge_time": 0,
+        "recipe": {
+            "ENCHANTED_GOLD": 160
+        }
+    },
+    "ENCHANTED_GOLD": {
+        "forge_time": 0,
+        "recipe": {
+            "GOLD_INGOT": 160
+        }
+    },
+    "ENCHANTED_IRON_BLOCK": {
+        "forge_time": 0,
+        "recipe": {
+            "ENCHANTED_IRON": 160
+        }
+    },
+    "ENCHANTED_IRON": {
+        "forge_time": 0,
+        "recipe": {
+            "IRON_INGOT": 160
+        }
+    },
+    "REFINED_TITANIUM": {
+        "forge_time": 43200,
+        "recipe": {
+            "ENCHANTED_TITANIUM": 16
+        }
+    },
+    "ENCHANTED_TITANIUM": {
+        "forge_time": 0,
+        "recipe": {
+            "TITANIUM_ORE": 160
+        }
+    },
+    "PERFECT_ONYX_GEM": {
+        "forge_time": 72000,
+        "recipe": {
+            "FLAWLESS_ONYX_GEM": 5
+        }
+    },
+    "FLAWLESS_ONYX_GEM": {
+        "forge_time": 0,
+        "recipe": {
+            "FINE_ONYX_GEM": 80
+        }
+    },
+    "PERFECT_PERIDOT_GEM": {
+        "forge_time": 72000,
+        "recipe": {
+            "FLAWLESS_PERIDOT_GEM": 5
+        }
+    },
+    "FLAWLESS_PERIDOT_GEM": {
+        "forge_time": 0,
+        "recipe": {
+            "FINE_PERIDOT_GEM": 80
+        }
+    },
+    "PERFECT_CITRINE_GEM": {
+        "forge_time": 72000,
+        "recipe": {
+            "FLAWLESS_CITRINE_GEM": 5
+        }
+    },
+    "FLAWLESS_CITRINE_GEM": {
+        "forge_time": 0,
+        "recipe": {
+            "FINE_CITRINE_GEM": 80
+        }
+    },
+    "PERFECT_AQUAMARINE_GEM": {
+        "forge_time": 72000,
+        "recipe": {
+            "FLAWLESS_AQUAMARINE_GEM": 5
+        }
+    },
+    "FLAWLESS_AQUAMARINE_GEM": {
+        "forge_time": 0,
+        "recipe": {
+            "FINE_AQUAMARINE_GEM": 80
+        }
+    },
+    "PERFECT_JASPER_GEM": {
+        "forge_time": 72000,
+        "recipe": {
+            "FLAWLESS_JASPER_GEM": 5
+        }
+    },
+    "FLAWLESS_JASPER_GEM": {
+        "forge_time": 0,
+        "recipe": {
+            "FINE_JASPER_GEM": 80
+        }
+    },
+    "FINE_JASPER_GEM": {
+        "forge_time": 0,
+        "recipe": {
+            "FLAWED_JASPER_GEM": 80
+        }
+    },
+    "FLAWED_JASPER_GEM": {
+        "forge_time": 0,
+        "recipe": {
+            "ROUGH_JASPER_GEM": 80
+        }
+    },
+    "PERFECT_RUBY_GEM": {
+        "forge_time": 72000,
+        "recipe": {
+            "FLAWLESS_RUBY_GEM": 5
+        }
+    },
+    "FLAWLESS_RUBY_GEM": {
+        "forge_time": 0,
+        "recipe": {
+            "FINE_RUBY_GEM": 80
+        }
+    },
+    "FINE_RUBY_GEM": {
+        "forge_time": 0,
+        "recipe": {
+            "FLAWED_RUBY_GEM": 80
+        }
+    },
+    "FLAWED_RUBY_GEM": {
+        "forge_time": 0,
+        "recipe": {
+            "ROUGH_RUBY_GEM": 80
+        }
+    },
+    "PERFECT_OPAL_GEM": {
+        "forge_time": 72000,
+        "recipe": {
+            "FLAWLESS_OPAL_GEM": 5
+        }
+    },
+    "FLAWLESS_OPAL_GEM": {
+        "forge_time": 0,
+        "recipe": {
+            "FINE_OPAL_GEM": 80
+        }
+    },
+    "FINE_OPAL_GEM": {
+        "forge_time": 0,
+        "recipe": {
+            "FLAWED_OPAL_GEM": 80
+        }
+    },
+    "FLAWED_OPAL_GEM": {
+        "forge_time": 0,
+        "recipe": {
+            "ROUGH_OPAL_GEM": 80
+        }
+    },
+    "PERFECT_TOPAZ_GEM": {
+        "forge_time": 72000,
+        "recipe": {
+            "FLAWLESS_TOPAZ_GEM": 5
+        }
+    },
+    "FLAWLESS_TOPAZ_GEM": {
+        "forge_time": 0,
+        "recipe": {
+            "FINE_TOPAZ_GEM": 80
+        }
+    },
+    "FINE_TOPAZ_GEM": {
+        "forge_time": 0,
+        "recipe": {
+            "FLAWED_TOPAZ_GEM": 80
+        }
+    },
+    "FLAWED_TOPAZ_GEM": {
+        "forge_time": 0,
+        "recipe": {
+            "ROUGH_TOPAZ_GEM": 80
+        }
+    },
+    "PERFECT_AMBER_GEM": {
+        "forge_time": 72000,
+        "recipe": {
+            "FLAWLESS_AMBER_GEM": 5
+        }
+    },
+    "FLAWLESS_AMBER_GEM": {
+        "forge_time": 0,
+        "recipe": {
+            "FINE_AMBER_GEM": 80
+        }
+    },
+    "FINE_AMBER_GEM": {
+        "forge_time": 0,
+        "recipe": {
+            "FLAWED_AMBER_GEM": 80
+        }
+    },
+    "FLAWED_AMBER_GEM": {
+        "forge_time": 0,
+        "recipe": {
+            "ROUGH_AMBER_GEM": 80
+        }
+    },
+    "PERFECT_SAPPHIRE_GEM": {
+        "forge_time": 72000,
+        "recipe": {
+            "FLAWLESS_SAPPHIRE_GEM": 5
+        }
+    },
+    "FLAWLESS_SAPPHIRE_GEM": {
+        "forge_time": 0,
+        "recipe": {
+            "FINE_SAPPHIRE_GEM": 80
+        }
+    },
+    "FINE_SAPPHIRE_GEM": {
+        "forge_time": 0,
+        "recipe": {
+            "FLAWED_SAPPHIRE_GEM": 80
+        }
+    },
+    "FLAWED_SAPPHIRE_GEM": {
+        "forge_time": 0,
+        "recipe": {
+            "ROUGH_SAPPHIRE_GEM": 80
+        }
+    },
+    "PERFECT_JADE_GEM": {
+        "forge_time": 72000,
+        "recipe": {
+            "FLAWLESS_JADE_GEM": 5
+        }
+    },
+    "FLAWLESS_JADE_GEM": {
+        "forge_time": 0,
+        "recipe": {
+            "FINE_JADE_GEM": 80
+        }
+    },
+    "FINE_JADE_GEM": {
+        "forge_time": 0,
+        "recipe": {
+            "FLAWED_JADE_GEM": 80
+        }
+    },
+    "FLAWED_JADE_GEM": {
+        "forge_time": 0,
+        "recipe": {
+            "ROUGH_JADE_GEM": 80
+        }
+    },
+    "PERFECT_AMETHYST_GEM": {
+        "forge_time": 72000,
+        "recipe": {
+            "FLAWLESS_AMETHYST_GEM": 5
+        }
+    },
+    "FLAWLESS_AMETHYST_GEM": {
+        "forge_time": 0,
+        "recipe": {
+            "FINE_AMETHYST_GEM": 80
+        }
+    },
+    "FINE_AMETHYST_GEM": {
+        "forge_time": 0,
+        "recipe": {
+            "FLAWED_AMETHYST_GEM": 80
+        }
+    },
+    "FLAWED_AMETHYST_GEM": {
+        "forge_time": 0,
+        "recipe": {
+            "ROUGH_AMETHYST_GEM": 80
+        }
+    }
+}
