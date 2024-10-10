@@ -24,6 +24,12 @@ class Forge(commands.Cog):
 
     @tasks.loop(minutes=1)
     async def update_forge(self):
+        # Wait until the bot is fully loaded and attached to the guild to do this stuff
+        guild = self.bot.get_guild(SERVER_ID)
+        if not guild:
+            return
+        channel = guild.get_channel(CHANNEL_ID)
+
         result = requests.get(f'http://backend:8000/forge_tracker').json()
 
         # Update forge ping channel
@@ -47,8 +53,6 @@ class Forge(commands.Cog):
 
                 message += f'<@{PING_ID}> {user}\'s **{item["item_name"]}** has finished forging!\n'
 
-        guild = self.bot.get_guild(SERVER_ID)
-        channel = guild.get_channel(CHANNEL_ID)
         if message:
             await channel.send(message)
 

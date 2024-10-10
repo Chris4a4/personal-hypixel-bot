@@ -13,7 +13,7 @@
         }
     },
     "PERFECT_PLATE": {
-        "forge_time": 21600,
+        "forge_time": 1800,
         "recipe": {
             "UMBER_PLATE": 1,
             "TUNGSTEN_PLATE": 1,
