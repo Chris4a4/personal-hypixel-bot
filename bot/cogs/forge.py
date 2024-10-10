@@ -2,6 +2,7 @@ import discord
 from discord.ext import commands, tasks
 import requests
 from time import time
+from datetime import datetime, timedelta, UTC
 
 
 PING_ID = 173286963451789314
@@ -46,11 +47,22 @@ class Forge(commands.Cog):
 
                 message += f'<@{PING_ID}> {user}\'s **{item["item_name"]}** has finished forging!\n'
 
+        guild = self.bot.get_guild(SERVER_ID)
+        channel = guild.get_channel(CHANNEL_ID)
         if message:
-            guild = self.bot.get_guild(SERVER_ID)
-            channel = guild.get_channel(CHANNEL_ID)
-
             await channel.send(message)
+
+        # Delete old messages in the ping channel
+        async for message in channel.history(limit=None):
+            if message.created_at < datetime.now(UTC) - timedelta(days=1):
+                try:
+                    print('DELETED')
+                    await message.delete()
+                except discord.Forbidden:
+                    print(f"Missing permissions to delete message from {message.author}")
+                except discord.HTTPException:
+                    print(f"Failed to delete message: {message.id}")
+
 
 
     @commands.slash_command(name="forgecalc", description="Shows resources required to make a forge recipe")
