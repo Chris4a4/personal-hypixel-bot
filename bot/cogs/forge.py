@@ -56,7 +56,6 @@ class Forge(commands.Cog):
         async for message in channel.history(limit=None):
             if message.created_at < datetime.now(UTC) - timedelta(days=1):
                 try:
-                    print('DELETED')
                     await message.delete()
                 except discord.Forbidden:
                     print(f"Missing permissions to delete message from {message.author}")
