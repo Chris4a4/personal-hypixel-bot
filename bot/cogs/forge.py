@@ -76,6 +76,8 @@ class Forge(commands.Cog):
         username: discord.Option(description="Minecraft username"),
         profile: discord.Option(description="Profile name to use. If left blank, uses currently selected profile", required=False)
     ):
+        await ctx.defer()
+
         item_codename = item.upper().replace(" ", "_")
 
         query = f'http://backend:8000/forge_calc/{username}'
