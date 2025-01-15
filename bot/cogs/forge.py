@@ -55,6 +55,9 @@ class Forge(commands.Cog):
 
         if message:
             await channel.send(message)
+            print("Updating forge channel - update posted")
+        else:
+            print("Updating forge channel - nothing to post")
 
         # Delete old messages in the ping channel
         async for message in channel.history(limit=None):
