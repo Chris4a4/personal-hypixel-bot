@@ -24,6 +24,16 @@ class Forge(commands.Cog):
 
     @tasks.loop(minutes=1)
     async def update_forge(self):
+        from datetime import datetime
+        from pprint import pprint
+
+        # Get current timestamp
+        current_timestamp = datetime.now()
+
+        # Format timestamp as string
+        timestamp_string = current_timestamp.strftime("%Y-%m-%d %H:%M:%S")
+
+
         # Wait until the bot is fully loaded and attached to the guild to do this stuff
         guild = self.bot.get_guild(SERVER_ID)
         if not guild:
@@ -31,6 +41,9 @@ class Forge(commands.Cog):
         channel = guild.get_channel(CHANNEL_ID)
 
         result = requests.get(f'http://backend:8000/forge_tracker').json()
+
+        print("-----------------------")
+        pprint(result)
 
         # Update forge ping channel
         message = ""
@@ -47,6 +60,7 @@ class Forge(commands.Cog):
 
                 uuid = f'{slot}-{item["start_time"]}'
                 if uuid in self.no_ping:
+                    print(f"{timestamp_string} -      already posted {uuid}")
                     continue
 
                 self.no_ping.add(uuid)
@@ -55,9 +69,9 @@ class Forge(commands.Cog):
 
         if message:
             await channel.send(message)
-            print("Updating forge channel - update posted")
+            print(f"{timestamp_string} - Updating forge channel - update posted")
         else:
-            print("Updating forge channel - nothing to post")
+            print(f"{timestamp_string} - Updating forge channel - nothing to post")
 
         # Delete old messages in the ping channel
         async for message in channel.history(limit=None):
