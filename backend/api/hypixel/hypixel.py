@@ -13,6 +13,11 @@ def get_items():
 
 
 def username_to_uuid(username):
+    if username == 'dexeray':
+        return "c5ab883e71244fc7ac06781e423e0ce3"
+    elif username == 'Chris4a4':
+        return "f0f2d9158f3242d2b754b835824f95f5"
+
     #uuid = requests.get(
     #    url=f'https://api.mojang.com/users/profiles/minecraft/{username}'
     #).json()['id']
@@ -21,8 +26,8 @@ def username_to_uuid(username):
         url=f'https://api.mojang.com/users/profiles/minecraft/{username}'
     )
 
-    print(f"username to id: {username}")
-    print(response)
+    #print(f"username to id: {username}")
+    #print(response)
 
     uuid = response.json()['id']
 
