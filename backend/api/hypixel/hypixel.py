@@ -13,9 +13,18 @@ def get_items():
 
 
 def username_to_uuid(username):
-    uuid = requests.get(
+    #uuid = requests.get(
+    #    url=f'https://api.mojang.com/users/profiles/minecraft/{username}'
+    #).json()['id']
+
+    response = requests.get(
         url=f'https://api.mojang.com/users/profiles/minecraft/{username}'
-    ).json()['id']
+    ).json()
+
+    print(f"username to id: {username}")
+    print(response)
+
+    uuid = response['id']
 
     return uuid
 
