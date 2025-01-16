@@ -19,12 +19,12 @@ def username_to_uuid(username):
 
     response = requests.get(
         url=f'https://api.mojang.com/users/profiles/minecraft/{username}'
-    ).json()
+    )
 
     print(f"username to id: {username}")
     print(response)
 
-    uuid = response['id']
+    uuid = response.json()['id']
 
     return uuid
 
