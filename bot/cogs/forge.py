@@ -73,16 +73,18 @@ class Forge(commands.Cog):
         #else:
         #    print(f"{timestamp_string} - Updating forge channel - nothing to post")
 
-        # Delete old messages in the ping channel
-        async for message in channel.history(limit=None):
-            if message.created_at < datetime.now(UTC) - timedelta(days=1):
-                try:
-                    await message.delete()
-                except discord.Forbidden:
-                    print(f"Missing permissions to delete message from {message.author}")
-                except discord.HTTPException:
-                    print(f"Failed to delete message: {message.id}")
-
+        try:
+            # Delete old messages in the ping channel
+            async for message in channel.history(limit=None):
+                if message.created_at < datetime.now(UTC) - timedelta(days=1):
+                    try:
+                        await message.delete()
+                    except discord.Forbidden:
+                        print(f"Missing permissions to delete message from {message.author}")
+                    except discord.HTTPException:
+                        print(f"Failed to delete message: {message.id}")
+        except discord.DiscordServerError as e:
+            print(f"Error retrieving message history: {e}")
 
 
     @commands.slash_command(name="forgecalc", description="Shows resources required to make a forge recipe")
