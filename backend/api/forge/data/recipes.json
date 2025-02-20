@@ -1,4 +1,94 @@
 {
+    "TITANIUM_DRILL_4": {
+        "forge_time": 30,
+        "recipe": {
+            "TITANIUM_DRILL_3": 1,
+            "FLAWLESS_RUBY_GEM": 1,
+            "REFINED_DIAMOND": 5,
+            "GEMSTONE_MIXTURE": 16,
+            "REFINED_TITANIUM": 32,
+            "MITHRIL_PLATE": 10
+        }
+    },
+    "GEMSTONE_MIXTURE": {
+        "forge_time": 14400,
+        "recipe": {
+            "FINE_JADE_GEM": 4,
+            "FINE_AMBER_GEM": 4,
+            "FINE_AMETHYST_GEM": 4,
+            "FINE_SAPPHIRE_GEM": 4,
+            "SLUDGE_JUICE": 320
+        }
+    },
+    "TITANIUM_DRILL_3": {
+        "forge_time": 30,
+        "recipe": {
+            "TITANIUM_DRILL_2": 1,
+            "REFINED_DIAMOND": 20,
+            "REFINED_TITANIUM": 16,
+            "ENCHANTED_IRON_BLOCK": 2,
+            "MITHRIL_PLATE": 10,
+            "PLASMA": 20
+        }
+    },
+    "TITANIUM_DRILL_2": {
+        "forge_time": 30,
+        "recipe": {
+            "TITANIUM_DRILL_1": 1,
+            "REFINED_DIAMOND": 10,
+            "REFINED_TITANIUM": 12,
+            "MITHRIL_PLATE": 5
+        }
+    },
+    "TITANIUM_DRILL_1": {
+        "forge_time": 14400,
+        "recipe": {
+            "DRILL_ENGINE": 1,
+            "FUEL_TANK": 1,
+            "GOLDEN_PLATE": 6,
+            "REFINED_TITANIUM": 8,
+            "REFINED_MITHRIL": 8
+        }
+    },
+    "DRILL_ENGINE": {
+        "forge_time": 108000,
+        "recipe": {
+            "ENCHANTED_IRON_BLOCK": 1,
+            "ENCHANTED_REDSTONE_BLOCK": 3,
+            "GOLDEN_PLATE": 1,
+            "TREASURITE": 10
+        }
+    },
+    "ENCHANTED_REDSTONE_BLOCK": {
+        "forge_time": 0,
+        "recipe": {
+            "ENCHANTED_REDSTONE": 160
+        }
+    },
+    "ENCHANTED_REDSTONE": {
+        "forge_time": 0,
+        "recipe": {
+            "REDSTONE": 160
+        }
+    },
+    "FUEL_TANK": {
+        "forge_time": 36000,
+        "recipe": {
+            "ENCHANTED_COAL_BLOCK": 2
+        }
+    },
+    "ENCHANTED_COAL_BLOCK": {
+        "forge_time": 0,
+        "recipe": {
+            "ENCHANTED_COAL": 160
+        }
+    },
+    "ENCHANTED_COAL": {
+        "forge_time": 0,
+        "recipe": {
+            "COAL": 160
+        }
+    },
     "SKELETON_KEY": {
         "forge_time": 1800,
         "recipe": {
