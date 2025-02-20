@@ -97,7 +97,10 @@ class Forge(commands.Cog):
     ):
         await ctx.defer()
 
-        item_codename = item.upper().replace(" ", "_")
+        if item == "Titanium Drill DR-X655":
+            item_codename = "TITANIUM_DRILL_4"
+        else:
+            item_codename = item.upper().replace(" ", "_")
 
         query = f'http://backend:8000/forge_calc/{username}'
         if profile is not None:
