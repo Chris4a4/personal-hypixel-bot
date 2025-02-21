@@ -1,4 +1,59 @@
 {
+    "AMBER_POLISHED_DRILL_ENGINE": {
+        "forge_time": 30,
+        "recipe": {
+            "SAPPHIRE_POLISHED_DRILL_ENGINE": 1,
+            "PERFECT_AMBER_GEM": 5,
+            "PRECURSOR_APPARATUS": 16,
+            "DRILL_ENGINE": 5,
+            "PLASMA": 32
+        }
+    },
+    "SAPPHIRE_POLISHED_DRILL_ENGINE": {
+        "forge_time": 30,
+        "recipe": {
+            "RUBY_POLISHED_DRILL_ENGINE": 1,
+            "PERFECT_SAPPHIRE_GEM": 3,
+            "PRECURSOR_APPARATUS": 8,
+            "DRILL_ENGINE": 5,
+            "PLASMA": 16
+        }
+    },
+    "RUBY_POLISHED_DRILL_ENGINE": {
+        "forge_time": 30,
+        "recipe": {
+            "TITANIUM_DRILL_ENGINE": 1,
+            "PERFECT_RUBY_GEM": 1,
+            "DRILL_ENGINE": 5,
+            "PRECURSOR_APPARATUS": 4
+        }
+    },
+    "PRECURSOR_APPARATUS": {
+        "forge_time": 0,
+        "recipe": {
+            "CONTROL_SWITCH": 1,
+            "ELECTRON_TRANSMITTER": 1,
+            "FTX_3070": 1,
+            "ROBOTRON_REFLECTOR": 1,
+            "SUPERLITE_MOTOR": 1,
+            "SYNTHETIC_HEART"
+        }
+    },
+    "TITANIUM_DRILL_ENGINE": {
+        "forge_time": 30,
+        "recipe": {
+            "MITHRIL_DRILL_ENGINE": 1,
+            "REFINED_TITANIUM": 8,
+            "DRILL_ENGINE": 2
+        }
+    },
+    "MITHRIL_DRILL_ENGINE": {
+        "forge_time": 86400,
+        "recipe": {
+            "DRILL_ENGINE": 2,
+            "MITHRIL_PLATE": 1
+        }
+    },
     "TITANIUM_DRILL_4": {
         "forge_time": 30,
         "recipe": {
