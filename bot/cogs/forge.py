@@ -90,7 +90,7 @@ class Forge(commands.Cog):
     @commands.slash_command(name="forgecalc", description="Shows resources required to make a forge recipe")
     async def forgecalc(self,
         ctx,
-        item: discord.Option(description="Name of item to calculate materials for", choices=["Skeleton Key", "Mithril Plate", "Perfect Plate", "Titanium Drill DR-X655"]),
+        item: discord.Option(description="Name of item to calculate materials for", choices=["Skeleton Key", "Mithril Plate", "Perfect Plate", "Titanium Drill DR-X655", "Amber-Polished Drill Engine"]),
         count: discord.Option(int, description="Number of items to calculate materials for", min_value=1, max_value=1000),
         username: discord.Option(description="Minecraft username"),
         profile: discord.Option(description="Profile name to use. If left blank, uses currently selected profile", required=False)
