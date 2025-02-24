@@ -31,7 +31,7 @@ def run_continuously(interval=1):
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     # Schedule all periodic jobs
-    schedule.every(10).minutes.do(update_forge_tracker)
+    schedule.every(10).minutes.do(update_forge_tracker) #a
 
     stop_var = run_continuously()
 
